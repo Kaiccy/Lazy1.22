@@ -45,6 +45,10 @@
     
     //广告推荐栏商品信息接口
     NSURL *url=[NSURL URLWithString:@"http://junjuekeji.com/appServlet?requestCode=B01&displayType=1&prodType=0&panicFlag=0"];
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
     ASIHTTPRequest *requestUrl = [ASIHTTPRequest requestWithURL:url];
     [requestUrl setDelegate:self];
     [requestUrl setRequestMethod:@"GET"];

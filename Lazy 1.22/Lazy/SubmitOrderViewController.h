@@ -27,7 +27,11 @@
 @property (strong, nonatomic) IBOutlet UIImageView *goodsImg3;
 @property (strong, nonatomic) IBOutlet UIImageView *moreImg;
 @property (strong, nonatomic) IBOutlet UILabel *totalCountLb;
+<<<<<<< HEAD
 @property (strong, nonatomic) UILabel *lb1;
+=======
+@property (strong, nonatomic) UILabel *lb1; //收获地址
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
 @property (strong, nonatomic) IBOutlet UIView *view1;
 @property (strong, nonatomic) IBOutlet UIView *view2;
 

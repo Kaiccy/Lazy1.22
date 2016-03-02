@@ -43,4 +43,8 @@
 
 @property (strong, nonatomic) UIView *view1;
 @property (copy, nonatomic) NSString *endtimeStr;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
 @end
