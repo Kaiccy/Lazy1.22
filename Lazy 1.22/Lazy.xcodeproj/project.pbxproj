@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+=======
 		6D5847571C875A420024F1BA /* StartPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5847561C875A420024F1BA /* StartPageManager.m */; };
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
 		952D044B1C044015005F305F /* alipay.png in Resources */ = {isa = PBXBuildFile; fileRef = 952D04481C044015005F305F /* alipay.png */; };
 		952D044C1C044015005F305F /* huo.png in Resources */ = {isa = PBXBuildFile; fileRef = 952D04491C044015005F305F /* huo.png */; };
 		952D044D1C044015005F305F /* weichatpay.png in Resources */ = {isa = PBXBuildFile; fileRef = 952D044A1C044015005F305F /* weichatpay.png */; };
@@ -268,8 +271,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+=======
 		6D5847551C875A420024F1BA /* StartPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPageManager.h; sourceTree = "<group>"; };
 		6D5847561C875A420024F1BA /* StartPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPageManager.m; sourceTree = "<group>"; };
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
 		952D04481C044015005F305F /* alipay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alipay.png; sourceTree = "<group>"; };
 		952D04491C044015005F305F /* huo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huo.png; sourceTree = "<group>"; };
 		952D044A1C044015005F305F /* weichatpay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weichatpay.png; sourceTree = "<group>"; };
@@ -932,8 +938,11 @@
 			children = (
 				954642BE1BCCCBB50083CDB8 /* TransitionViewController.h */,
 				954642BF1BCCCBB50083CDB8 /* TransitionViewController.m */,
+<<<<<<< HEAD
+=======
 				6D5847551C875A420024F1BA /* StartPageManager.h */,
 				6D5847561C875A420024F1BA /* StartPageManager.m */,
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
 			);
 			name = welcome;
 			sourceTree = "<group>";
@@ -1708,7 +1717,10 @@
 				9539C45C1C3CE44500505224 /* TimeModel.m in Sources */,
 				95331A581BE3052B00D27F0C /* FMDatabasePool.m in Sources */,
 				9539C4591C3CE44500505224 /* BaseTableViewCell.m in Sources */,
+<<<<<<< HEAD
+=======
 				6D5847571C875A420024F1BA /* StartPageManager.m in Sources */,
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
 				959433341BC8DAE200DCCD4D /* GetGoodsAddressTableViewCell.m in Sources */,
 				95AE997D1C4CBDB30096ADAE /* MD5DataSigner.m in Sources */,
 				95DDC9D51BB13ADB0068CC32 /* MainViewController.m in Sources */,

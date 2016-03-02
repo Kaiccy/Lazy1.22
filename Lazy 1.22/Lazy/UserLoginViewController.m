@@ -788,6 +788,10 @@
 
     else
     {
+<<<<<<< HEAD
+        self.rtelnumTextField.userInteractionEnabled=YES;
+=======
+>>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
         //上传数据
         NSURL *url=[NSURL URLWithString:[NSString stringWithFormat:@"http://junjuekeji.com/appServlet?requestCode=A01&phoneNumber=%@",self.rtelnumTextField.text]];
         
