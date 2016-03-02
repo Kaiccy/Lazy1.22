@@ -21,11 +21,8 @@
 
 #import "payRequsestHandler.h"
 
-<<<<<<< HEAD
-=======
 #import "StartPageManager.h"
 
->>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
 @interface AppDelegate ()
 
 @end
@@ -100,14 +97,11 @@
         NSString *isLOGIN = [resultSet stringForColumn:@"LOGIN"];
         self.name = [resultSet stringForColumn:@"NICKNAME"];
         NSLog(@"user = %@ islogin = %@",user,isLOGIN);
-<<<<<<< HEAD
         //如果存在已登录 跳转到主页面
         if ([isLOGIN isEqualToString:@"YES"])
-=======
         
         //如果存在已登录 跳转到主页面
         if ([isLOGIN isEqualToString:@"YES"] || [StartPageManager sharedStartPageManager].firstLaunchl == NO)
->>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
         {
     
             MainViewController *view = [[MainViewController alloc]init];
@@ -148,12 +142,11 @@
         //如果没有该表 就先跳到欢迎界面
         TransitionViewController *tranView = [[TransitionViewController alloc]init];
         self.window.rootViewController = tranView;
-<<<<<<< HEAD
-=======
+
+
         
         //下次进入应用的时候就不需要再显示引导页
         [StartPageManager sharedStartPageManager].firstLaunchl = NO;
->>>>>>> 68a3d38f126e7ab50763814ff0a2e263a0605970
     }
 
     //初始化数组
