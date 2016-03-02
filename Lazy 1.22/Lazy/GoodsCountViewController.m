@@ -14,7 +14,7 @@
 @interface GoodsCountViewController ()
 
 @end
-
+//haha
 @implementation GoodsCountViewController
 - (void)viewWillAppear:(BOOL)animated
 {
